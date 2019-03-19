@@ -1,0 +1,185 @@
+# Copyright (C) 2018 Give-Razorpay
+# This file is distributed under the same license as the Give-Razorpay package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give-Razorpay\n"
+"Report-Msgid-Bugs-To: https://github.com/WordImpress/Give-Razorpay/issues/new\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2018-MO-DA HO:MI+ZONE\n"
+"Language-Team: WordImpress <info@wordimpress.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/actions.php:45, includes/admin/actions.php:40
+msgid "Phone"
+msgstr ""
+
+#: includes/actions.php:48
+msgid "Enter your phone number."
+msgstr ""
+
+#: includes/actions.php:135, includes/functions.php:123, includes/process-payment.php:26, includes/process-payment.php:94
+msgid "Razorpay Error"
+msgstr ""
+
+#: includes/actions.php:136
+msgid "Unable to setup order."
+msgstr ""
+
+#: includes/actions.php:137, includes/functions.php:125, includes/process-payment.php:28
+msgid "Error Detail: %s"
+msgstr ""
+
+#: includes/actions.php:138
+msgid "POST Data: %s"
+msgstr ""
+
+#: includes/admin/admin-settings.php:57, includes/functions.php:9
+msgid "Razorpay"
+msgstr ""
+
+#: includes/admin/admin-settings.php:124
+msgid "Live Key ID"
+msgstr ""
+
+#: includes/admin/admin-settings.php:127
+msgid "Required live merchant key id provided by Razorpay."
+msgstr ""
+
+#: includes/admin/admin-settings.php:130
+msgid "Live Secret Key"
+msgstr ""
+
+#: includes/admin/admin-settings.php:133
+msgid "Required live merchant secret key provided by Razorpay."
+msgstr ""
+
+#: includes/admin/admin-settings.php:136
+msgid "Test Key ID"
+msgstr ""
+
+#: includes/admin/admin-settings.php:139
+msgid "Required test merchant key id provided by Razorpay."
+msgstr ""
+
+#: includes/admin/admin-settings.php:142
+msgid "Test Secret Key"
+msgstr ""
+
+#: includes/admin/admin-settings.php:145
+msgid "Required test merchant secret key provided by Razorpay."
+msgstr ""
+
+#: includes/admin/admin-settings.php:148
+msgid "Payment Method Label"
+msgstr ""
+
+#: includes/admin/admin-settings.php:152
+msgid "Payment method label will be appear on frontend."
+msgstr ""
+
+#: includes/admin/admin-settings.php:155
+msgid "Popup Image"
+msgstr ""
+
+#: includes/admin/admin-settings.php:158
+msgid "This image will be use to show on Razorpay popup. Image size should be 80px * 80px"
+msgstr ""
+
+#: includes/admin/admin-settings.php:161
+msgid "Popup Theme Color"
+msgstr ""
+
+#: includes/admin/admin-settings.php:164
+msgid "This color will be use to set theme color for Razorpay popup"
+msgstr ""
+
+#: includes/admin/admin-settings.php:168
+msgid "Phone Field"
+msgstr ""
+
+#: includes/admin/admin-settings.php:171
+msgid "Enable this setting if you want to show phone field on the donation form. This will pre-fill the field within the Razorpay popup."
+msgstr ""
+
+#: includes/admin/admin-settings.php:174, includes/admin/admin-settings.php:183
+msgid "Enabled"
+msgstr ""
+
+#: includes/admin/admin-settings.php:175, includes/admin/admin-settings.php:184
+msgid "Disabled"
+msgstr ""
+
+#: includes/admin/admin-settings.php:179
+msgid "Collect Billing Details"
+msgstr ""
+
+#: includes/admin/admin-settings.php:187
+msgid "This option will enable the billing details section for Razorpay which requires the donor's address to complete the donation. These fields are not required by Razorpay to process the transaction, but you may have the need to collect the data."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:64
+msgid "Razorpay Gateway"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:87
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"https://givewp.com/\" target=\"_blank\">Give</a> plugin installed and activated for the Razorpay add-on to activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:96
+msgid "<strong>Activation Error:</strong> You must have <a href=\"%1$s\" target=\"_blank\">Give</a> minimum version %2$s for the Razorpay add-on to activate."
+msgstr ""
+
+#: includes/admin/plugin-activation.php:114
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:149
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/plugin-activation.php:159
+msgid "Add-ons"
+msgstr ""
+
+#: includes/functions.php:124, includes/process-payment.php:27, includes/process-payment.php:95
+msgid "Transaction Failed."
+msgstr ""
+
+#: includes/functions.php:126, includes/process-payment.php:29
+msgid "Razorpay Response: %s"
+msgstr ""
+
+#: includes/functions.php:129, includes/process-payment.php:32, includes/process-payment.php:72
+msgid "An error occurred while processing your payment. Please try again."
+msgstr ""
+
+#: includes/process-payment.php:21
+msgid "Invalid donation"
+msgstr ""
+
+#: includes/process-payment.php:63
+msgid "Payment Error"
+msgstr ""
+
+#: includes/process-payment.php:66
+msgid "The payment creation failed before processing the Razorpay gateway request. Payment data: %s"
+msgstr ""
+
+#: includes/process-payment.php:78
+msgid "Transaction Successful. Razoypay Transaction ID: %s"
+msgstr ""
+
+#: includes/process-payment.php:95
+msgid "Details: %s"
+msgstr ""
+
+#: includes/process-payment.php:98
+msgid "The transaction failed. Details: %s"
+msgstr ""
